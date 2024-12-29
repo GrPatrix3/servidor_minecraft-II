@@ -1,0 +1,174 @@
+#  ____    _                       _          _____
+# / ___|  (_)  _ __ ___    _ __   | |   ___  |_   _|  _ __     __ _
+# \___ \  | | | '_ ` _ \  | '_ \  | |  / _ \   | |   | '_ \   / _` |
+#  ___) | | | | | | | | | | |_) | | | |  __/   | |   | |_) | | (_| |
+# |____/  |_| |_| |_| |_| | .__/  |_|  \___|   |_|   | .__/   \__,_|
+#                         |_|                        |_|
+
+# PlaceHolders: %time% | %player% | %option%
+
+
+# !!!!!!!!!!!!!!!!
+# This options will support all plugins that use teleport stuff
+# If you want the plugin to log the previus teleport locations for the /back command from other plugins -> set this to true
+enable-teleport-logging: false
+# !!!!!!!!!!!!!!!!
+
+#If you set it to true, you will disable the prefix
+#Make sure to restart the server in order to apply it
+disable-prefix: false
+prefix: "&x&3&4&E&6&4&7&l[&x&3&B&E&4&5&C&lL&x&4&3&E&3&7&0&le&x&4&A&E&1&8&5&lx&x&5&1&D&F&9&A&ly&x&5&8&D&D&A&E&ld&x&6&0&D&C&C&3&lu&x&6&7&D&A&D&7&lr&x&6&E&D&8&E&C&l]"
+
+#Messages:
+# To use HEX COLOR CODES - EXAMPLE: #2ecc71
+# Death-Message: "&6To teleport to your death #2ecc71location use &c/back"
+
+# TO DISABLE A MESSAGE - SET IT TO - NONE
+# EXAMPLE:
+# Console-Isnt-Player: "none"
+Console-Isnt-Player: "&1La consola no se puede usar &cSimpleTpa&6!"
+Disabled-World-Message: "&cNo puedes usar SimpleTpa en este mundo"
+Teleport-Message: "&2Serás teletransportado en &7%time% &2seconds"
+Teleport-Message-TPAUTO: "&2Serás teletransportado en &7%time% &2seconds, No te muevas"
+Teleport-Message-Back-To-Player: "&2Aceptaste la solicitud"
+Player-Is-Null: "&cEl jugador no esta en linea"
+Player-Doesnt-Have-Back-Point: "&cEl reproductor no tiene ninguna ubicación atrás"
+Player-Doesnt-Have-Back-Point-1: "&4No tienes ninguna ubicación atrás"
+Cooldown-Message: "&4Aun no puedes usar el comando por %time% segundos"
+Death-Message: "none"
+Teleport-Message-Back-To-Sender-TPHEREALL: "&2Enviando una solicitud de teletransporte aquí a todos."
+No-Permission-Message: "&cNo tienes permiso para este comando"
+TpaToggle-Deactivated-Player-2: "&b%player% &cdeshabilité la teletransportación hacia ti"
+TpaToggle-Activated-Player-2: "&b%player% &2Habilité la teletransportación hacia ti!"
+TpaToggle-Deactivated-Player: "&cDesactivaste la teletransportación para &b%player%"
+TpaToggle-Activated-Player: "&aActicaste la teletransportación para &b%player%"
+TpaToggle-Deactivated: "&aDesactivaste la teletransportación hacia ti."
+TpaToggle-Activated: "&aActivaste la teletransportación hacia ti."
+TpaToggled-Player-Message: "&c&lEl jugador le ha deshabilitado la teletransportación."
+Player-Is-Player: "&cNo puedes teletransportarte a ti mismo"
+Player-Is-Player-tpignore: "&cNo puedes ignorarte a ti mismo"
+Player-Is-Ignored: "&2El jugador ha sido ignorado"
+Player-Is-Already-Ignored: "&aEl jugador fue bloqueado. Si quieres bloquearlo, usa el comando nuevamente."
+Already-A-TP-Request: "none"
+Tpa-Usage-Message: "&4Por favor utilice: &7/tpa (jugador)"
+TpaIgnore-Usage-Message: "&4Por favor utilice: &7/tpaignore (jugador)"
+Timed-Out-Message: "&cTu solicitud de teletransporte ha expirado!"
+Sending-Teleport-Request: "none"
+Accept-Message: "&2Para aceptar la solicitud de teletransporte, escribe &7/tpaccept"
+Deny-Message: "&2Para denegar la solicitud de teletransporte, escribe &7/tpdeny"
+Sent-Request-On-You: "&b%player% &2te ha enviado una solicitud de teletransporte"
+Timed-Out-Here-Message: "&cSu solicitud de teletransportación ha expirado"
+Sending-Teleport-Here-Request: "&2Enviando una solicitud de teletransporte a &b%player%&2. Si deseas cancelarlo &c/tpcancel player"
+Sent-Here-Request-On-You: "&b%player% &2Te ha enviado una solicitud de teletransportación"
+Already-A-TPHere-Request: "&2Ya has enviado una solicitud de teletransportación. Si deseas cancelarla &7/tpcancel player"
+Tpa-Here-Usage-Message: "&2Por favor utilice: &7/tpahere (jugador)"
+No-Teleport-Requests: "&2No tienes ninguna solicitud de teletransporte!"
+Invalid-Player: "&4Parece que el jugador que se estaba teletransportando hacia ti ha abandonado el servidor"
+Teleport-Message-Back-To-Sender: "&b%player% &2&lha aceptado tu solicitud de teletransportación."
+Teleported-Message: "&6Teletransportado..."
+#for Teleported-Message-TpAuto  %player% placeholder for player name
+Teleported-Message-TpAuto: "&b%player% &2se ha teletransportado hacia ti. Tienes activadas las funciones /tpauto"
+Move-Cancel-Message: "&c&lTe has movido y la solicitud de teletransporte ha sido eliminada"
+Rejected-Sender: "&4El jugador ha rechazado tu tp"
+Rejected-Message: "&4Has rechazado el tp"
+Player-Is-In-Disabled-World: "none"
+Tpcancel-Usage-Message: "&2Por favor utilice: &7/tpcancel (jugador)"
+Error-Cancelling-Request: "&4&lNo puedes cancelar tu propia solicitud"
+Request-Cancelled: "&2Cancelaste exitosamente la solicitud"
+Death-Message-Coords: "&aTu lugar de muerte es: &7%coords%"
+Time-Left: "&2Tienes &7%seconds%&2 segundos para aceptar o rechazar la solicitud"
+Damaged-Cancel-Message: "&cRecibiste daño y la solicitud de teletransportación fue cancelada"
+Different-Gamemode: "none"
+World-Doesnt-Exists-Or-Unloaded: "&4&lFAIL"
+Enabled-TpAuto: "&aA partir de ahora aceptarás automáticamente todas las solicitudes /tpa"
+Disabled-TpAuto: "&aA partir de ahora no aceptarás automáticamente todas las solicitudes /tpa"
+Player-Has-Ignored-You: "&4&lEl jugador ha ignorado tus solicitudes de tp"
+## BUTTONS
+#Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+
+# PARTICLES AND SOUNDS
+# Here you can change the sound volume or the pitch. These are the recommended values
+# Select the name for the sound from here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+Sound-Name: "ENTITY_PLAYER_LEVELUP"
+sound-volume: 3.0
+sound-pitch: 0.533
+# Select the name for the particle from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+Particle-Name: "EXPLOSION_NORMAL"
+
+#Accept Button Properties
+Accept-Button: "ACCEPT"
+Accept-Button-Color: "Green"
+Accept-Button-Set-Bold: true
+Accept-Button-Description: "&6Click here to &cACCEPT &6the tp request!"
+
+#Middle Button Properties
+Middle-Button: " | "
+Middle-Button-Color: "GRAY"
+Middle-Button-Set-Bold: true
+Middle-Button-Description: "&7 <- Choose between -> "
+
+#Deny Button Properties
+Deny-Button: "DENY"
+Deny-Button-Color: "Green"
+Deny-Button-Set-Bold: true
+Deny-Button-Description: "&6Click here to &cDENY &6the tp request!"
+
+# If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
+#Disabled Worlds:
+disabled-worlds:
+  - 'disabledworld'
+
+# If you set anything to true, you will disable it.
+# B A C K    S E T T I N G S
+
+#If you want to disable the back command, then set this to true
+disable-back-command: false
+
+# If you want to disable the death coords message, then set this to true
+disable-coords-message: false
+
+# If you want to disable saving the death location, then set this to true
+disable-back-on-death: false
+
+# If you want to disable saving the TP Locations such as TPA, TPAHERE, then set this to true
+disable-back-on-tp: false
+
+#Booleans
+#  If you want to disable checking for gamemode if equals to spectator, then set this to true
+disable-gamemode-check: false
+#  If you want to disable saving the accept or deny buttons, then set this to true
+disable-accept-deny-buttons: false
+#  If you want to disable saving the particles, then set this to true
+disable-particles: false
+#  If you want to disable saving the move system, then set this to true
+disable-move-system: false
+# If you want to disable sounds from the plugin, then set this to true
+disable-sound: false
+
+# If you want to disable interdimensional travel(only allowed to use the plugin in the same world with other player), then set this to true
+disable-interdimensional-travel: false
+# If you want to disable the invincibility after teleporting, then set this to true
+disable-invincibility: false
+# If you want to disable logging /back locations from quitting the server, then set this to true
+disable-back-on-quit: false
+
+# Everything works with SECONDS
+#Integers
+invincibility-seconds: 3
+#This will keep the teleport request alive for X seconds
+keep-alive: 60
+#This will delay the teleportation for X seconds
+delay-back-command: 3
+delay-teleportation: 3
+#Cooldowns
+back-cooldown: 10
+tpa-cooldown: 10
+tpahere-cooldown: 10
+tpahereall-cooldown: 10
+#To set a custom cooldown, you need to add a permission : simpletpa.cooldown.Y.X where Y is the command and  X are the seconds.
+#The options for commands are: tpa | tpahere | back | tpahereall
+#Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
+#This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
+
+
+
