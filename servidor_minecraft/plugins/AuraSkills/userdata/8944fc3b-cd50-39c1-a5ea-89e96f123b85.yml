@@ -5,19 +5,19 @@ skills:
     xp: 82.30000000000003
   auraskills/farming:
     level: 2
-    xp: 142.79999999999987
+    xp: 144.99999999999986
   auraskills/archery:
     level: 0
     xp: 50.0
   auraskills/fighting:
     level: 2
-    xp: 68.4
+    xp: 76.10000000000001
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/agility:
     level: 3
-    xp: 578.4224
+    xp: 588.2224
   auraskills/alchemy:
     level: 0
     xp: 0.0
@@ -32,7 +32,7 @@ skills:
     xp: 503.2300000000283
   auraskills/defense:
     level: 3
-    xp: 3.285970926285131
+    xp: 42.88597092628513
 mana: 24.0
 action_bar:
   idle: true
