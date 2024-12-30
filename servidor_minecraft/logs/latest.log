@@ -143,3 +143,8 @@
 [17:20:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GrPatrixYT's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [17:20:52] [Server thread/INFO]: GrPatrixYT joined the game
 [17:20:52] [Server thread/INFO]: GrPatrixYT[/127.101.92.249:57485] logged in with entity id 14035 at ([world]-823.6740092796664, 66.0, -1746.9518168309378)
+[17:31:18] [Server thread/INFO]: Alipsi has made the advancement [The Parrots and the Bats]
+[17:42:21] [User Authenticator #3/INFO]: UUID of player SANS1237843 is 62fed0e1-ff38-36a6-8695-7c50b7f30215
+[17:42:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SANS1237843's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:42:23] [Server thread/INFO]: SANS1237843 joined the game
+[17:42:23] [Server thread/INFO]: SANS1237843[/127.72.228.58:41353] logged in with entity id 20008 at ([world]-1097.1578105917308, 81.0, -2127.2504977096805)
