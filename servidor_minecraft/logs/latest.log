@@ -249,3 +249,15 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [18:46:34] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
 [18:51:11] [Server thread/INFO]: luispro110224 was shot by Skeleton
 [18:51:15] [Server thread/INFO]: luispro110224 issued server command: /back
+[18:55:22] [Server thread/INFO]: Alipsi has made the advancement [Country Lode, Take Me Home]
+[19:00:09] [Server thread/INFO]: luispro110224 fell from a high place
+[19:00:15] [Server thread/INFO]: luispro110224 issued server command: /n
+[19:00:19] [Server thread/INFO]: luispro110224 issued server command: /back
+[19:01:14] [Server thread/INFO]: luispro110224 burned to death
+[19:01:20] [Server thread/INFO]: luispro110224 issued server command: /back
+[19:04:02] [Server thread/INFO]: SANS1237843 lost connection: Disconnected
+[19:04:02] [Server thread/INFO]: SANS1237843 left the game
+[19:04:10] [User Authenticator #5/INFO]: UUID of player SANS1237843 is 62fed0e1-ff38-36a6-8695-7c50b7f30215
+[19:04:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player SANS1237843's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[19:04:11] [Server thread/INFO]: SANS1237843 joined the game
+[19:04:11] [Server thread/INFO]: SANS1237843[/127.72.228.58:41813] logged in with entity id 93931 at ([world]-1078.60249378779, 72.0, -2136.8348852006347)
