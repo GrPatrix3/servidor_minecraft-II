@@ -405,3 +405,65 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [05:58:52] [Server thread/INFO]: You whisper to Alipsi: mñ empiezo la granja temprano
 [05:59:06] [Async Chat Thread - #17/INFO]: [Not Secure] <luispro110224> no seas malo
 [05:59:19] [Async Chat Thread - #17/INFO]: [Not Secure] <Alipsi> no wn, me tarde un culo en conseguirlos
+[06:07:21] [Server thread/INFO]: luispro110224 issued server command: /tpa aliopsi
+[06:07:36] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[06:07:45] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> joaquin acepta tp
+[06:07:52] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> no estoy en la casa
+[06:08:04] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> si ya lo se
+[06:08:10] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> no me llego nd tampoco
+[06:08:15] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> llevame pa alla aqui no hay q haer
+[06:08:41] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> manda tp
+[06:08:53] [Server thread/INFO]: Alipsi issued server command: /tpahere l
+[06:08:53] [Server thread/ERROR]: Command exception: /tpahere l
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpahere' in plugin SimpleTpa v7.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.Green
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:289) ~[bungeecord-chat-1.20-R0.2-deprecated+build.18.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:55) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendTRequest(SimpleTpaUtils.java:125) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaHereCommand.onCommand(TpaHereCommand.java:70) ~[SimpleTpa.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[06:09:01] [Server thread/INFO]: luispro110224 issued server command: /tpaccept
+[06:09:36] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> en q te ayudo
+[06:09:48] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> conseguir cuarzo
+[06:10:18] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> no ps
+[06:10:18] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> eso esta bien
+[06:10:23] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> ocupo cantidades insdustriales
+[06:10:32] [Async Chat Thread - #18/INFO]: [Not Secure] <luispro110224> cuanto
+[06:10:44] [Async Chat Thread - #19/INFO]: [Not Secure] <Alipsi> unos 10 stacks en bloques
+[06:10:59] [Async Chat Thread - #19/INFO]: [Not Secure] <luispro110224> y x donde me voy al neder
+[06:11:07] [Async Chat Thread - #19/INFO]: [Not Secure] <Alipsi> no tengo portal aqui xd
+[06:11:13] [Async Chat Thread - #19/INFO]: [Not Secure] <luispro110224> y ahora
+[06:11:17] [Async Chat Thread - #19/INFO]: [Not Secure] <Alipsi> voy a hacer uno temporal
+[06:11:37] [Async Chat Thread - #19/INFO]: [Not Secure] <luispro110224> vas hacer hueco aqui
+[06:11:40] [Async Chat Thread - #19/INFO]: [Not Secure] <Alipsi> pasa
+[06:11:58] [Async Chat Thread - #19/INFO]: [Not Secure] <Alipsi> si pero luego
