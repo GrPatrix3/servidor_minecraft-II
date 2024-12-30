@@ -11,12 +11,12 @@
 # !!!!!!!!!!!!!!!!
 # This options will support all plugins that use teleport stuff
 # If you want the plugin to log the previus teleport locations for the /back command from other plugins -> set this to true
-enable-teleport-logging: false
+enable-teleport-logging: true
 # !!!!!!!!!!!!!!!!
 
 #If you set it to true, you will disable the prefix
 #Make sure to restart the server in order to apply it
-disable-prefix: false
+disable-prefix: true
 prefix: "&x&3&4&E&6&4&7&l[&x&3&B&E&4&5&C&lL&x&4&3&E&3&7&0&le&x&4&A&E&1&8&5&lx&x&5&1&D&F&9&A&ly&x&5&8&D&D&A&E&ld&x&6&0&D&C&C&3&lu&x&6&7&D&A&D&7&lr&x&6&E&D&8&E&C&l]"
 
 #Messages:
