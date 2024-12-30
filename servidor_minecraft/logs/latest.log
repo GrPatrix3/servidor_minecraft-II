@@ -1,173 +1,164 @@
-[03:45:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:45:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[03:45:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:45:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[03:45:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[04:38:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:38:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[04:38:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:38:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[04:38:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - AngelChest (13.9.0), AuraSkills (2.2.7), ClearLag (3.2.2), RHLeafDecay (1.21_R1), SimpleTpa (7.4), SkinsRestorer (15.5.1), TAB (5.0.3)
-[03:45:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:45:10] [ServerMain/INFO]: Loaded 1337 recipes
-[03:45:10] [ServerMain/INFO]: Loaded 1448 advancements
-[03:45:10] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[03:45:10] [Server thread/INFO]: Loading properties
-[03:45:10] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[03:45:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:45:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:45:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:45:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:45:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:45:12] [Server thread/INFO]: Default game type: SURVIVAL
-[03:45:12] [Server thread/INFO]: Generating keypair
-[03:45:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:45:13] [Server thread/INFO]: Using epoll channel type
-[03:45:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:45:13] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:45:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[03:45:13] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
-[03:45:13] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[03:45:13] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
-[03:45:13] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[03:45:13] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.7
-[03:45:13] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
-[03:45:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:45:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[03:45:14] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[03:45:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[03:45:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:45:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:45:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:45:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:45:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:45:15] [Server thread/INFO]: Preparing level "world"
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:45:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:45:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:45:16] [Server thread/INFO]: Preparing spawn area: 0%
-[03:45:16] [Server thread/INFO]: Preparing spawn area: 2%
-[03:45:16] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[03:45:16] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 321.9ms
-[03:45:16] [Server thread/INFO]: Preparing spawn area: 2%
-[03:45:17] [Server thread/INFO]: Preparing spawn area: 75%
-[03:45:17] [Server thread/INFO]: Time elapsed: 1612 ms
-[03:45:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:45:17] [Server thread/INFO]: Preparing spawn area: 0%
-[03:45:17] [Server thread/INFO]: Time elapsed: 370 ms
-[03:45:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:45:17] [Server thread/INFO]: Preparing spawn area: 0%
-[03:45:18] [Server thread/INFO]: Time elapsed: 203 ms
-[03:45:18] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
-[03:45:18] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[03:45:18] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[03:45:18] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[03:45:18] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[03:45:18] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[03:45:19] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[03:45:19] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
-[03:45:19] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[03:45:19] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[03:45:19] [Server thread/INFO]: [ClearLag] Loading modules...
-[03:45:19] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[03:45:19] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[03:45:19] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[03:45:19] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[03:45:19] [Thread-11/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[03:45:19] [Thread-11/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[03:45:19] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[03:45:19] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[03:45:19] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[03:45:19] [Thread-11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[03:45:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
-[03:45:19] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
-[03:45:19] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
-[03:45:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[03:45:19] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[03:45:19] [Server thread/INFO]: [TAB] Loaded NMS hook in 72ms
-[03:45:19] [Server thread/INFO]: [TAB] Enabled in 308ms
-[03:45:19] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.7
-[03:45:20] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[03:45:21] [Server thread/INFO]: [AuraSkills] Loaded 151 config options in 41 ms
-[03:45:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
-[03:45:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
-[03:45:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[03:45:21] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[03:45:21] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[03:45:22] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
-[03:45:22] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
-[03:45:22] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
-[03:45:22] [Server thread/INFO]: [RHLeafDecay] Info:
-[03:45:22] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
-[03:45:22] [Server thread/INFO]: [spark] Starting background profiler...
-[03:45:23] [Server thread/INFO]: Done preparing level "world" (7.948s)
-[03:45:23] [Server thread/INFO]: Running delayed init tasks
-[03:45:24] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 315 total sources
-[03:45:24] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[03:45:24] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[03:45:24] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[03:45:24] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:45:24] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[03:45:24] [Server thread/INFO]: Done (25.331s)! For help, type "help"
-[03:45:26] [Server thread/INFO]: [AngelChest] ========================================================
-[03:45:26] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[03:45:26] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[03:45:26] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[03:45:26] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[03:45:26] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[03:45:26] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[03:45:26] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[03:45:26] [Server thread/INFO]: [AngelChest] 
-[03:45:26] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[03:45:26] [Server thread/INFO]: [AngelChest] ========================================================
-[03:46:35] [User Authenticator #0/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
-[03:46:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Player luispro110224's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[03:46:37] [Server thread/INFO]: luispro110224 joined the game
-[03:46:37] [Server thread/INFO]: luispro110224[/127.104.189.111:57143] logged in with entity id 2 at ([world]-1063.6774128564984, 102.64560940121599, -1421.969723182046)
-[03:46:39] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 612b3204-5ea4-48ae-8b5d-f9bf3c9668ac, mapped to Bat['Bat'/114, uuid='612b3204-5ea4-48ae-8b5d-f9bf3c9668ac', l='ServerLevel[world]', x=-1041.13, y=37.44, z=-1303.27, cpos=[-66, -82], tl=930, v=true], can't add Bat['Bat'/137, uuid='612b3204-5ea4-48ae-8b5d-f9bf3c9668ac', l='ServerLevel[world]', x=-1035.11, y=39.50, z=-1307.32, cpos=[-65, -82], tl=883, v=false]
-[03:46:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 08bbafd3-ff09-4492-b206-738713e5a52b, mapped to Villager['Villager'/193, uuid='08bbafd3-ff09-4492-b206-738713e5a52b', l='ServerLevel[world]', x=-978.94, y=63.00, z=-1330.84, cpos=[-62, -84], tl=12579, v=true], can't add Villager['Villager'/242, uuid='08bbafd3-ff09-4492-b206-738713e5a52b', l='ServerLevel[world]', x=-974.63, y=63.00, z=-1326.29, cpos=[-61, -83], tl=12526, v=false]
-[03:46:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bf16ee49-f6be-4e6f-bcba-258e5560f965, mapped to Villager['Villager'/318, uuid='bf16ee49-f6be-4e6f-bcba-258e5560f965', l='ServerLevel[world]', x=-992.26, y=75.00, z=-1263.48, cpos=[-63, -79], tl=12022, v=true], can't add Villager['Villager'/334, uuid='bf16ee49-f6be-4e6f-bcba-258e5560f965', l='ServerLevel[world]', x=-991.88, y=75.00, z=-1263.43, cpos=[-62, -79], tl=11982, v=false]
-[03:46:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3a7e737a-5964-41a6-80b2-5fd8397335ba, mapped to Bee['Bee'/352, uuid='3a7e737a-5964-41a6-80b2-5fd8397335ba', l='ServerLevel[world]', x=-871.06, y=71.71, z=-1347.94, cpos=[-55, -85], tl=17679, v=true], can't add Bee['Bee'/383, uuid='3a7e737a-5964-41a6-80b2-5fd8397335ba', l='ServerLevel[world]', x=-876.03, y=72.07, z=-1343.84, cpos=[-55, -84], tl=17749, v=false]
-[03:47:09] [User Authenticator #0/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[03:47:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[03:47:10] [Server thread/INFO]: Alipsi joined the game
-[03:47:10] [Server thread/INFO]: Alipsi[/127.49.25.160:42879] logged in with entity id 584 at ([world]-2131.769032923731, 71.0, -3314.8497454721237)
-[03:47:10] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6964f431-ca11-4c1f-82e1-45b0195e0b46, mapped to Bat['Bat'/688, uuid='6964f431-ca11-4c1f-82e1-45b0195e0b46', l='ServerLevel[world]', x=-2138.17, y=-15.35, z=-3358.24, cpos=[-134, -210], tl=627, v=true], can't add Bat['Bat'/708, uuid='6964f431-ca11-4c1f-82e1-45b0195e0b46', l='ServerLevel[world]', x=-2137.93, y=-16.63, z=-3360.93, cpos=[-134, -211], tl=656, v=false]
-[03:47:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: edb91947-3b43-455c-a284-c9e20fc928a4, mapped to Chicken['Chicken'/1359, uuid='edb91947-3b43-455c-a284-c9e20fc928a4', l='ServerLevel[world]', x=-1347.18, y=79.00, z=-1759.47, cpos=[-85, -110], tl=12987, v=true], can't add Chicken['Chicken'/1362, uuid='edb91947-3b43-455c-a284-c9e20fc928a4', l='ServerLevel[world]', x=-1346.36, y=78.00, z=-1764.68, cpos=[-85, -111], tl=13390, v=false]
-[03:51:34] [User Authenticator #1/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[03:51:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GrPatrixYT's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[03:51:35] [Server thread/INFO]: GrPatrixYT joined the game
-[03:51:35] [Server thread/INFO]: GrPatrixYT[/127.199.61.249:58783] logged in with entity id 5708 at ([world]991.9726672050767, 110.0, -2450.407889750145)
-[03:56:31] [Server thread/INFO]: Alipsi lost connection: Disconnected
-[03:56:31] [Server thread/INFO]: Alipsi left the game
-[03:56:49] [User Authenticator #2/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[03:56:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[03:56:50] [Server thread/INFO]: Alipsi joined the game
-[03:56:50] [Server thread/INFO]: Alipsi[/127.49.25.160:58139] logged in with entity id 12192 at ([world]-2115.3620341089977, 71.0, -3299.1865799977986)
-[03:58:17] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> patrick
-[03:58:19] [Async Chat Thread - #0/INFO]: [Not Secure] <GrPatrixYT> e
-[03:58:25] [Async Chat Thread - #1/INFO]: [Not Secure] <luispro110224> ya esta la granja de enderman
-[03:58:31] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> me falta coral
-[03:58:46] [Async Chat Thread - #1/INFO]: [Not Secure] <Alipsi> anda al oceano ps
-[03:58:53] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> aqui ando buscando :v
-[03:59:21] [Server thread/INFO]: Alipsi lost connection: Disconnected
-[03:59:21] [Server thread/INFO]: Alipsi left the game
-[03:59:34] [User Authenticator #3/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[03:59:35] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[03:59:35] [Server thread/INFO]: Alipsi joined the game
-[03:59:35] [Server thread/INFO]: Alipsi[/127.49.25.160:47181] logged in with entity id 16844 at ([world]-2118.3073172639647, 71.0, -3313.083828140912)
-[04:02:55] [Server thread/INFO]: Alipsi lost connection: Disconnected
-[04:02:55] [Server thread/INFO]: Alipsi left the game
-[04:03:05] [User Authenticator #4/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[04:03:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5353ms or 107 ticks behind
-[04:03:10] [Server thread/WARN]: GrPatrixYT moved too quickly! 5.3004689423378295,42.76010335152701,62.51393853967471
-[04:03:11] [Server thread/INFO]: Alipsi joined the game
-[04:03:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[04:03:11] [Server thread/INFO]: Alipsi[/127.49.25.160:41007] logged in with entity id 23729 at ([world]-2108.93302984753, 71.0, -3322.341941692872)
+[04:38:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:38:20] [ServerMain/INFO]: Loaded 1337 recipes
+[04:38:20] [ServerMain/INFO]: Loaded 1448 advancements
+[04:38:20] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[04:38:20] [Server thread/INFO]: Loading properties
+[04:38:20] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[04:38:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:38:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:38:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:38:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:38:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:38:22] [Server thread/INFO]: Default game type: SURVIVAL
+[04:38:22] [Server thread/INFO]: Generating keypair
+[04:38:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:38:22] [Server thread/INFO]: Using epoll channel type
+[04:38:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:38:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:38:23] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[04:38:23] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[04:38:23] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[04:38:23] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.4
+[04:38:23] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[04:38:23] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.7
+[04:38:23] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
+[04:38:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:38:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[04:38:24] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[04:38:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[04:38:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[04:38:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:38:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:38:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:38:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:38:25] [Server thread/INFO]: Preparing level "world"
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[04:38:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[04:38:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:38:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:26] [Server thread/INFO]: Preparing spawn area: 2%
+[04:38:26] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[04:38:26] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 320.3ms
+[04:38:26] [Server thread/INFO]: Preparing spawn area: 53%
+[04:38:26] [Server thread/INFO]: Time elapsed: 1344 ms
+[04:38:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:38:26] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:27] [Server thread/INFO]: Time elapsed: 258 ms
+[04:38:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:38:27] [Server thread/INFO]: Preparing spawn area: 0%
+[04:38:27] [Server thread/INFO]: Time elapsed: 100 ms
+[04:38:27] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[04:38:27] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[04:38:27] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[04:38:27] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[04:38:27] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[04:38:27] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[04:38:28] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[04:38:28] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[04:38:28] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[04:38:28] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[04:38:28] [Server thread/INFO]: [ClearLag] Loading modules...
+[04:38:28] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[04:38:28] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[04:38:28] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[04:38:28] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[04:38:28] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.4
+[04:38:28] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[04:38:28] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.4
+[04:38:28] [Thread-11/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[04:38:28] [Thread-11/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[04:38:28] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[04:38:28] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[04:38:28] [Thread-11/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[04:38:28] [Thread-11/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:38:28] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[04:38:28] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[04:38:28] [Server thread/INFO]: [TAB] Loaded NMS hook in 128ms
+[04:38:29] [Server thread/INFO]: [TAB] Enabled in 500ms
+[04:38:29] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.7
+[04:38:30] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[04:38:30] [Server thread/INFO]: [AuraSkills] Loaded 151 config options in 84 ms
+[04:38:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.3! Trying to find NMS support
+[04:38:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R2' loaded!
+[04:38:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[04:38:30] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[04:38:30] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[04:38:31] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
+[04:38:31] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
+[04:38:31] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
+[04:38:31] [Server thread/INFO]: [RHLeafDecay] Info:
+[04:38:31] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
+[04:38:31] [Server thread/INFO]: [spark] Starting background profiler...
+[04:38:32] [Server thread/INFO]: Done preparing level "world" (7.092s)
+[04:38:32] [Server thread/INFO]: Running delayed init tasks
+[04:38:32] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 315 total sources
+[04:38:32] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[04:38:32] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[04:38:32] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[04:38:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:38:33] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[04:38:33] [Server thread/INFO]: Done (21.258s)! For help, type "help"
+[04:38:35] [Server thread/INFO]: [AngelChest] ========================================================
+[04:38:35] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[04:38:35] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[04:38:35] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[04:38:35] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[04:38:35] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[04:38:35] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[04:38:35] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[04:38:35] [Server thread/INFO]: [AngelChest] 
+[04:38:35] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[04:38:35] [Server thread/INFO]: [AngelChest] ========================================================
+[04:38:39] [User Authenticator #0/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[04:38:41] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GrPatrixYT's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:38:41] [Server thread/INFO]: GrPatrixYT joined the game
+[04:38:41] [Server thread/INFO]: GrPatrixYT[/127.199.61.249:57789] logged in with entity id 2 at ([world]2702.2299174556456, 62.11076431274414, 2608.7320462604616)
+[04:39:49] [User Authenticator #1/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[04:39:50] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:39:50] [Server thread/INFO]: Alipsi joined the game
+[04:39:50] [Server thread/INFO]: Alipsi[/127.49.25.160:43051] logged in with entity id 1707 at ([world]-2135.153663665462, 69.0, -3303.4527808168505)
+[04:39:57] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> wase
+[04:40:09] [Async Chat Thread - #0/INFO]: [Not Secure] <GrPatrixYT> consigueme coral csmr
+[04:40:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> se me reseteo casi td
+[04:40:21] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> usa creativo
+[04:40:22] [Async Chat Thread - #0/INFO]: [Not Secure] <GrPatrixYT> por negro
+[04:40:22] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> JKDAS
+[04:40:31] [Async Chat Thread - #0/INFO]: [Not Secure] <GrPatrixYT> a eso tmb xd
+[04:41:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> como se consigue esa vaina
+[04:41:05] [Async Chat Thread - #0/INFO]: [Not Secure] <GrPatrixYT> coral?
+[04:41:08] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> buscar nomas
+[04:41:13] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> y picar con toque de seda
+[04:41:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Alipsi> queseso ps
+[04:41:28] [Async Chat Thread - #1/INFO]: [Not Secure] <Alipsi> cerca del monumento no hay?
+[04:41:33] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> ne
+[04:41:36] [User Authenticator #2/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
+[04:41:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Player luispro110224's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:41:37] [Server thread/INFO]: luispro110224 joined the game
+[04:41:37] [Server thread/INFO]: luispro110224[/127.104.189.111:37365] logged in with entity id 4045 at ([world_nether]-155.30000001192093, 17.0, -230.1047162121301)
+[04:41:39] [Async Chat Thread - #1/INFO]: [Not Secure] <GrPatrixYT> es un bioma :v
+[04:41:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Alipsi> mmta
+[04:41:56] [Async Chat Thread - #1/INFO]: [Not Secure] <Alipsi> con fe te sale
+[04:43:52] [Server thread/INFO]: luispro110224 burned to death
+[04:43:58] [Server thread/INFO]: luispro110224 issued server command: /back
+[04:44:14] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-174.0,y=17.0,z=-207.0,pitch=0.0,yaw=0.0}
+[04:44:22] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-174.0,y=17.0,z=-207.0,pitch=0.0,yaw=0.0}
+[04:45:07] [Server thread/INFO]: luispro110224 burned to death
+[04:45:11] [Server thread/INFO]: luispro110224 issued server command: /back
+[04:45:23] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-178.0,y=17.0,z=-210.0,pitch=0.0,yaw=0.0}
