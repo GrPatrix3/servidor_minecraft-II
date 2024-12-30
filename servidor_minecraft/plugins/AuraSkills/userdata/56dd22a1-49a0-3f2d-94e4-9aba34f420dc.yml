@@ -8,7 +8,7 @@ skills:
     xp: 285.70000000000255
   auraskills/farming:
     level: 4
-    xp: 557.329999999999
+    xp: 797.1300000000031
   auraskills/alchemy:
     level: 2
     xp: 350.0
@@ -20,7 +20,7 @@ skills:
     xp: 97.0
   auraskills/agility:
     level: 8
-    xp: 4440.449600000008
+    xp: 4564.179000000007
   auraskills/foraging:
     level: 10
     xp: 2005.3400000003833
@@ -56,6 +56,6 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/first_strike:
-    counter: 82
+    counter: 83
   auraskills/xp_convert:
-    xp: 29.72072906075066
+    xp: 3.2501290607506244
