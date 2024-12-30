@@ -617,3 +617,112 @@ Reason: Banned by an operator.
 Reason: Banned by an operator.
 [22:15:42] [Server thread/INFO]: GrPatrixYT issued server command: /pardon xRoma47x
 [22:15:42] [Server thread/INFO]: [GrPatrixYT: Unbanned xRoma47x]
+[22:18:02] [User Authenticator #7/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[22:18:03] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:18:03] [Server thread/INFO]: xRoma47x joined the game
+[22:18:03] [Server thread/INFO]: xRoma47x[/127.74.153.192:38915] logged in with entity id 84541 at ([world]-1062.863646294362, -40.0, -2181.78946560688)
+[22:18:38] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:19:32] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[22:19:32] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[22:20:29] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:20:36] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:22:09] [Server thread/WARN]: GrPatrixYT moved wrongly!
+[22:22:48] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[22:22:48] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[22:23:02] [Server thread/INFO]: xRoma47x fell from a high place
+[22:23:13] [Server thread/INFO]: xRoma47x issued server command: /back
+[22:23:35] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[22:23:35] [Server thread/INFO]: xRoma47x left the game
+[22:23:35] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
+[22:23:42] [Server thread/INFO]: Alipsi issued server command: /back
+[22:23:59] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:24:00] [User Authenticator #8/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[22:24:01] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[22:24:01] [Server thread/INFO]: Alipsi left the game
+[22:24:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:24:02] [Server thread/INFO]: xRoma47x joined the game
+[22:24:02] [Server thread/INFO]: xRoma47x[/127.74.153.192:40519] logged in with entity id 88980 at ([world]-1071.679864771407, -44.0, -2189.825531778754)
+[22:24:07] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:24:09] [Server thread/INFO]: SANS1237843 issued server command: /back
+[22:24:12] [User Authenticator #8/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[22:24:12] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[22:24:12] [Server thread/INFO]: xRoma47x left the game
+[22:24:12] [Server thread/INFO]: Alipsi joined the game
+[22:24:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:24:12] [Server thread/INFO]: Alipsi[/127.49.25.160:51939] logged in with entity id 89009 at ([world]-2111.324823583954, 71.0, -3320.921305478801)
+[22:24:17] [User Authenticator #8/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[22:24:19] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:24:19] [Server thread/INFO]: xRoma47x joined the game
+[22:24:19] [Server thread/INFO]: xRoma47x[/127.74.153.192:57615] logged in with entity id 89388 at ([world]-1071.6448179281808, -44.0, -2190.377114111409)
+[22:24:29] [Server thread/INFO]: Alipsi issued server command: /tpa Gr
+[22:24:35] [Server thread/INFO]: Alipsi issued server command: /tpa s
+[22:24:41] [Server thread/INFO]: Alipsi issued server command: /tpauto
+[22:25:36] [Server thread/INFO]: GrPatrixYT fell from a high place
+[22:25:36] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsii
+[22:25:41] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:25:42] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[22:25:42] [Server thread/ERROR]: Command exception: /tpa alipsi
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpa' in plugin SimpleTpa v7.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.Green
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:289) ~[bungeecord-chat-1.20-R0.2-deprecated+build.18.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:55) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendRequest(SimpleTpaUtils.java:98) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:125) ~[SimpleTpa.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[22:31:55] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[22:31:55] [Server thread/INFO]: GrPatrixYT left the game
+[22:31:59] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[22:31:59] [Server thread/INFO]: xRoma47x left the game
+[22:32:08] [User Authenticator #9/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[22:32:09] [Server thread/INFO]: xRoma47x joined the game
+[22:32:09] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:32:09] [Server thread/INFO]: xRoma47x[/127.74.153.192:56641] logged in with entity id 100214 at ([world]-825.5852654839065, 66.0, -1747.4381399687982)
+[22:32:10] [User Authenticator #9/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[22:32:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GrPatrixYT's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:32:11] [Server thread/INFO]: GrPatrixYT joined the game
+[22:32:11] [Server thread/INFO]: GrPatrixYT[/127.101.92.249:39519] logged in with entity id 100232 at ([world_the_end]328.3664989127197, -29.971999058713777, 3.697415117508885)
+[22:32:16] [Server thread/INFO]: GrPatrixYT fell out of the world
+[22:32:25] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:32:31] [Server thread/INFO]: GrPatrixYT fell out of the world
+[22:32:50] [Server thread/INFO]: GrPatrixYT issued server command: /ban xRoma47x
+[22:32:50] [Server thread/INFO]: [GrPatrixYT: Banned xRoma47x: Banned by an operator.]
+[22:32:50] [Server thread/INFO]: xRoma47x lost connection: You are banned from this server
+[22:32:50] [Server thread/INFO]: xRoma47x left the game
+[22:32:58] [Server thread/INFO]: GrPatrixYT issued server command: /pardon xRoma47x
+[22:32:58] [Server thread/INFO]: [GrPatrixYT: Unbanned xRoma47x]
+[22:34:10] [User Authenticator #10/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[22:34:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:34:11] [Server thread/INFO]: xRoma47x joined the game
+[22:34:11] [Server thread/INFO]: xRoma47x[/127.74.153.192:47133] logged in with entity id 101795 at ([world]-826.8852681793867, 63.0, -1753.7706918399429)
+[22:35:58] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[22:36:02] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
