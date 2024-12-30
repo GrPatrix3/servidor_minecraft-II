@@ -275,3 +275,12 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [05:30:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Alipsi> alm
 [05:30:35] [Async Chat Thread - #12/INFO]: [Not Secure] <Alipsi> fue ps
 [05:30:43] [Async Chat Thread - #12/INFO]: [Not Secure] <luispro110224> llevame
+[05:30:47] [Async Chat Thread - #13/INFO]: [Not Secure] <Alipsi> nao
+[05:30:55] [Async Chat Thread - #13/INFO]: [Not Secure] <luispro110224> avanza
+[05:30:58] [Async Chat Thread - #13/INFO]: [Not Secure] <Alipsi> no
+[05:31:01] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[05:31:10] [Async Chat Thread - #13/INFO]: [Not Secure] <luispro110224> ya de alli veop como me voy a la jato
+[05:31:32] [Async Chat Thread - #13/INFO]: [Not Secure] <luispro110224> ya
+[05:31:34] [Async Chat Thread - #13/INFO]: [Not Secure] <Alipsi> barra back nms
+[05:31:43] [Server thread/INFO]: luispro110224 issued server command: /back
+[05:34:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 90b93466-0138-4ec7-93b9-0f51c9a3e1ad, mapped to Horse['Horse'/77298, uuid='90b93466-0138-4ec7-93b9-0f51c9a3e1ad', l='ServerLevel[world]', x=-698.92, y=69.00, z=-860.08, cpos=[-44, -54], tl=460, v=true], can't add Horse['Horse'/77300, uuid='90b93466-0138-4ec7-93b9-0f51c9a3e1ad', l='ServerLevel[world]', x=-695.00, y=67.00, z=-866.00, cpos=[-44, -55], tl=0, v=false]
