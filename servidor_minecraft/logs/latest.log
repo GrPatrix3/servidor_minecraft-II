@@ -227,3 +227,19 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [18:24:05] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
 [18:24:13] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
 [18:24:13] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[18:24:19] [Server thread/INFO]: GrPatrixYT has made the advancement [Country Lode, Take Me Home]
+[18:24:54] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[18:24:54] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[18:28:48] [User Authenticator #4/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
+[18:28:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player luispro110224's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[18:28:49] [Server thread/INFO]: luispro110224 joined the game
+[18:28:49] [Server thread/INFO]: luispro110224[/127.104.189.111:51347] logged in with entity id 61033 at ([world_nether]-236.3151734347118, 59.0, -513.7601688879141)
+[18:36:39] [Server thread/INFO]: Villager Villager['Villager'/73292, uuid='b7f8af43-ced5-4639-a912-7a0f7234fbb5', l='ServerLevel[world]', x=-6194.72, y=68.50, z=-3542.63, cpos=[-388, -222], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[18:37:32] [Server thread/INFO]: luispro110224 burned to death
+[18:37:36] [Server thread/INFO]: luispro110224 issued server command: /back
+[18:37:40] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-210.0,y=15.0,z=-551.0,pitch=0.0,yaw=0.0}
+[18:37:42] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-210.0,y=15.0,z=-551.0,pitch=0.0,yaw=0.0}
+[18:37:43] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-210.0,y=15.0,z=-551.0,pitch=0.0,yaw=0.0}
+[18:39:57] [Server thread/INFO]: luispro110224 issued server command: /tpa SANS1237843
+[18:42:01] [Server thread/INFO]: Alipsi issued server command: /tpa s
+[18:42:23] [Server thread/INFO]: SANS1237843 has reached the goal [Sky's the Limit]
