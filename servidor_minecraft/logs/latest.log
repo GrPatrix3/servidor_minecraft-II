@@ -277,3 +277,73 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [19:14:19] [Server thread/INFO]: Alipsi joined the game
 [19:14:19] [Server thread/INFO]: Alipsi[/127.49.25.160:58897] logged in with entity id 101341 at ([world]-2110.6025433821283, 71.24080000162125, -3308.733824972515)
 [19:15:31] [Server thread/WARN]: GrPatrixYT moved wrongly!
+[19:20:10] [Async Chat Thread - #4/INFO]: [Not Secure] <Alipsi> gamerule playerssleepingpercentage
+[19:20:27] [Server thread/INFO]: GrPatrixYT issued server command: /gamerule playersSleepingPercentage
+[19:20:30] [Server thread/INFO]: GrPatrixYT issued server command: /gamerule playersSleepingPercentage2
+[19:20:35] [Server thread/INFO]: GrPatrixYT issued server command: /gamerule playersSleepingPercentage 2
+[19:20:35] [Server thread/INFO]: [GrPatrixYT: Gamerule playersSleepingPercentage is now set to: 2]
+[19:21:15] [Server thread/INFO]: Alipsi issued server command: /back
+[19:28:36] [Server thread/INFO]: SANS1237843 has made the advancement [Minecraft: Trial(s) Edition]
+[19:29:07] [Server thread/INFO]: Alipsi issued server command: /tpa s
+[19:29:11] [Server thread/INFO]: Alipsi has made the advancement [Minecraft: Trial(s) Edition]
+[19:29:36] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[19:29:36] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[19:29:37] [Server thread/INFO]: GrPatrixYT has made the advancement [Minecraft: Trial(s) Edition]
+[19:30:54] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[19:31:27] [Server thread/INFO]: SANS1237843 was slain by Zombie
+[19:31:31] [Server thread/INFO]: SANS1237843 issued server command: /back
+[19:31:36] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[19:32:57] [Server thread/WARN]: GrPatrixYT moved wrongly!
+[19:41:30] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[19:41:30] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[19:41:51] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[19:41:51] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[19:43:04] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[19:43:10] [Server thread/INFO]: SANS1237843 has made the advancement [Under Lock and Key]
+[19:43:15] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[19:43:20] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[19:43:59] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[19:43:59] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[19:44:11] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224
+[19:44:11] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to luispro110224]
+[19:44:46] [Server thread/INFO]: luispro110224 has made the advancement [Minecraft: Trial(s) Edition]
+[19:46:14] [Server thread/INFO]: luispro110224 issued server command: /tpa GrPatrixYT
+[19:46:14] [Server thread/ERROR]: Command exception: /tpa GrPatrixYT
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpa' in plugin SimpleTpa v7.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.Green
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:289) ~[bungeecord-chat-1.20-R0.2-deprecated+build.18.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:55) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendRequest(SimpleTpaUtils.java:98) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:125) ~[SimpleTpa.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[19:46:20] [Server thread/INFO]: GrPatrixYT issued server command: /tpaccept
