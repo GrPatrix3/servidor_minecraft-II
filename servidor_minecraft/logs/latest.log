@@ -130,3 +130,4 @@
 [16:15:08] [Server thread/INFO]: Alipsi joined the game
 [16:15:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [16:15:08] [Server thread/INFO]: Alipsi[/127.49.25.160:34337] logged in with entity id 38 at ([world]-2119.2474988410177, 62.0, -3311.34042297176)
+[16:22:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 797449b9-effc-4917-be74-21ca9e8d5313, mapped to Creeper['Creeper'/991, uuid='797449b9-effc-4917-be74-21ca9e8d5313', l='ServerLevel[world_nether]', x=-264.70, y=50.25, z=-415.50, cpos=[-17, -26], tl=8940, v=true], can't add Creeper['Creeper'/993, uuid='797449b9-effc-4917-be74-21ca9e8d5313', l='ServerLevel[world_nether]', x=-258.91, y=49.88, z=-421.09, cpos=[-17, -27], tl=1365, v=false]
