@@ -388,3 +388,77 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaCommand.onCommand(TpaCommand.java:125) ~[SimpleTpa.jar:?]
 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
 	... 27 more
+[02:17:56] [Server thread/INFO]: Alipsi issued server command: /tpdeny
+[02:18:01] [Server thread/INFO]: Alipsi issued server command: /tpahere luis
+[02:18:01] [Server thread/ERROR]: Command exception: /tpahere luis
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpahere' in plugin SimpleTpa v7.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.Green
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:289) ~[bungeecord-chat-1.20-R0.2-deprecated+build.18.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:55) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendTRequest(SimpleTpaUtils.java:125) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaHereCommand.onCommand(TpaHereCommand.java:70) ~[SimpleTpa.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[02:18:12] [Server thread/INFO]: luispro110224 issued server command: /tpaccept
+[02:18:38] [Server thread/INFO]: luispro110224 issued server command: /back
+[02:20:20] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[02:20:20] [Server thread/INFO]: Alipsi left the game
+[02:20:23] [User Authenticator #10/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[02:20:24] [Server thread/INFO]: Alipsi joined the game
+[02:20:24] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:20:24] [Server thread/INFO]: Alipsi[/127.49.25.160:60507] logged in with entity id 72335 at ([world]-1771.788410082019, 112.0, -2585.3805564728027)
+[02:21:15] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[02:21:15] [Server thread/INFO]: Alipsi left the game
+[02:21:17] [User Authenticator #10/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[02:21:18] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:21:18] [Server thread/INFO]: Alipsi joined the game
+[02:21:18] [Server thread/INFO]: Alipsi[/127.49.25.160:40225] logged in with entity id 72622 at ([world]-1773.0787957883745, 113.0, -2580.4427471270487)
+[02:22:29] [Server thread/INFO]: luispro110224 fell from a high place
+[02:22:38] [Server thread/INFO]: luispro110224 issued server command: /back
+[02:24:23] [Server thread/INFO]: Villager Villager['Villager'/64267, uuid='8695c739-e03f-4905-b374-cb3ec2af5809', l='ServerLevel[world]', x=-1820.75, y=107.02, z=-2588.71, cpos=[-114, -162], tl=19712, v=true] died, message: 'Villager was slain by Zombie'
+[02:24:33] [Server thread/INFO]: Villager Villager['Villager'/64266, uuid='75734c5b-d2c2-42bf-b75c-763f253eea77', l='ServerLevel[world]', x=-1825.30, y=101.00, z=-2592.68, cpos=[-115, -163], tl=19925, v=true] died, message: 'Villager was slain by Zombie'
+[02:25:58] [Server thread/INFO]: Villager Villager['Farmer'/64221, uuid='ef4b762e-cc9c-444b-9811-e0051c660e7f', l='ServerLevel[world]', x=-1779.03, y=110.00, z=-2684.10, cpos=[-112, -168], tl=20865, v=true] died, message: 'Farmer was slain by Zombie'
+[02:26:38] [Server thread/INFO]: Villager Villager['Farmer'/64212, uuid='bb5fd35d-aa5e-4d9d-8fc6-90bafd0ed1e3', l='ServerLevel[world]', x=-1776.56, y=110.00, z=-2652.45, cpos=[-112, -166], tl=21668, v=true] died, message: 'Farmer was slain by Zombie Villager'
+[02:26:41] [Server thread/INFO]: Villager Villager['Villager'/64190, uuid='3165f7a2-9da0-40c1-aa7b-dda3fe5a2d08', l='ServerLevel[world]', x=-1804.77, y=110.00, z=-2621.55, cpos=[-113, -164], tl=21758, v=true] died, message: 'Villager was slain by Zombie'
+[02:28:12] [Server thread/INFO]: xRoma47x has made the advancement [Local Brewery]
+[02:28:39] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[02:28:39] [Server thread/INFO]: xRoma47x left the game
+[02:30:52] [Server thread/INFO]: Villager Villager['Mason'/64280, uuid='b1bf6958-d30a-4fea-8770-7566ea5674f0', l='ServerLevel[world]', x=-1842.64, y=110.00, z=-2648.64, cpos=[-116, -166], tl=26961, v=true] died, message: 'Mason was slain by Zombie'
+[02:33:38] [Server thread/INFO]: luispro110224 was slain by Zombified Piglin
+[02:33:43] [Server thread/INFO]: luispro110224 issued server command: /back
+[02:36:28] [Server thread/INFO]: luispro110224 was slain by Zombified Piglin
+[02:36:32] [Server thread/INFO]: luispro110224 issued server command: /back
+[02:39:00] [Server thread/INFO]: Villager Villager['Fisherman'/64192, uuid='f10c63f3-05b5-4ca4-9a84-7e5483ad62f6', l='ServerLevel[world]', x=-1772.70, y=110.63, z=-2607.37, cpos=[-111, -163], tl=36528, v=true] died, message: 'Fisherman was slain by Zombie'
+[02:40:55] [Server thread/INFO]: Villager Villager['Nitwit'/64128, uuid='0138e50b-5ad3-47f8-8fa7-ad2a7d029b4b', l='ServerLevel[world]', x=-1765.20, y=111.00, z=-2595.54, cpos=[-111, -163], tl=38815, v=true] died, message: 'Nitwit was slain by Zombie'
+[02:42:17] [Server thread/INFO]: luispro110224 was slain by Zombified Piglin
+[02:42:22] [Server thread/INFO]: luispro110224 issued server command: /back
+[02:45:05] [Async Chat Thread - #20/INFO]: [Not Secure] <Alipsi> keloke
