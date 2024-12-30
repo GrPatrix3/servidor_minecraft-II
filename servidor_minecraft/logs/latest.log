@@ -336,3 +336,19 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [21:06:03] [Server thread/INFO]: luispro110224 issued server command: /back
 [21:12:18] [Server thread/INFO]: luispro110224 was doomed to fall
 [21:12:22] [Server thread/INFO]: luispro110224 issued server command: /back
+[21:14:25] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[21:14:25] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[21:14:28] [Server thread/INFO]: SANS1237843 was doomed to fall
+[21:14:31] [Server thread/INFO]: SANS1237843 issued server command: /back
+[21:15:05] [Server thread/INFO]: Alipsi issued server command: /back
+[21:15:15] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[21:15:59] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[21:16:01] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[21:17:04] [Server thread/INFO]: SANS1237843 issued server command: /back
+[21:17:51] [Server thread/INFO]: luispro110224 issued server command: /tpa SANS1237843
+[21:18:26] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[21:18:32] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[21:24:08] [Server thread/INFO]: GrPatrixYT fell from a high place
+[21:24:09] [Server thread/INFO]: luispro110224 experienced kinetic energy
+[21:24:14] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[21:24:16] [Server thread/INFO]: luispro110224 issued server command: /back
