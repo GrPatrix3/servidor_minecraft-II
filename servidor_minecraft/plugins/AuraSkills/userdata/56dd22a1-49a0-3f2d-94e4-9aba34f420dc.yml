@@ -14,26 +14,26 @@ skills:
     xp: 350.0
   auraskills/mining:
     level: 13
-    xp: 2104.339999999661
+    xp: 3238.590000000051
   auraskills/archery:
     level: 1
     xp: 4.0
   auraskills/agility:
-    level: 8
-    xp: 6412.068000000006
+    level: 9
+    xp: 152.12580000000594
   auraskills/foraging:
     level: 10
     xp: 2214.86000000039
   auraskills/excavation:
     level: 5
-    xp: 1467.5599999999756
+    xp: 1772.25999999999
   auraskills/enchanting:
     level: 3
     xp: 596.8000000000001
   auraskills/defense:
     level: 7
     xp: 3592.2414494514323
-mana: 38.0
+mana: 40.0
 action_bar:
   idle: true
 locale: es
@@ -61,6 +61,8 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 20.229129060752957
+    xp: 19.23692906075393
   auraskills/first_strike:
     counter: 94
+  auraskills/speed_mine:
+    cooldown: 1593
