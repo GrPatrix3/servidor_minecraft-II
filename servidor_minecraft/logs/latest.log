@@ -186,3 +186,19 @@
 [04:58:50] [Async Chat Thread - #5/INFO]: [Not Secure] <Alipsi> KJDASDKAS
 [04:58:51] [Async Chat Thread - #5/INFO]: [Not Secure] <GrPatrixYT> ando en 9 000
 [04:59:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Alipsi> ALM
+[05:03:47] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[05:03:47] [Server thread/INFO]: Alipsi left the game
+[05:03:51] [User Authenticator #5/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[05:03:52] [Server thread/INFO]: Alipsi joined the game
+[05:03:52] [Server thread/INFO]: Alipsi[/127.49.25.160:60179] logged in with entity id 37432 at ([world]-2112.0395483669604, 70.0, -3295.535890990487)
+[05:03:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:04:01] [Async Chat Thread - #6/INFO]: [Not Secure] <Alipsi> ya duerman un dia
+[05:04:06] [Async Chat Thread - #6/INFO]: [Not Secure] <Alipsi> no aguanto los phantoms
+[05:05:02] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[05:05:02] [Server thread/INFO]: Alipsi left the game
+[05:05:07] [User Authenticator #6/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[05:05:08] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:05:08] [Server thread/INFO]: Alipsi joined the game
+[05:05:08] [Server thread/INFO]: Alipsi[/127.49.25.160:38779] logged in with entity id 39420 at ([world]-2105.6894644414083, 71.24080000162125, -3301.7395825988233)
+[05:08:11] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[05:08:11] [Server thread/INFO]: GrPatrixYT left the game
