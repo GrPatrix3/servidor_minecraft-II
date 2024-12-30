@@ -290,3 +290,14 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [20:18:43] [Server thread/INFO]: GrPatrixYT issued server command: /back
 [20:20:42] [Server thread/INFO]: GrPatrixYT issued server command: /back
 [20:20:48] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[20:22:35] [Server thread/INFO]: Alipsi issued server command: /back
+[20:24:09] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[20:24:09] [Server thread/INFO]: GrPatrixYT left the game
+[20:24:28] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
+[20:25:21] [Server thread/INFO]: luispro110224 issued server command: /tpa alipsi
+[20:29:29] [Server thread/INFO]: Alipsi has reached the goal [Beaconator]
+[20:29:29] [Server thread/INFO]: Alipsi has made the advancement [Bring Home the Beacon]
+[20:29:29] [Server thread/INFO]: luispro110224 has reached the goal [Beaconator]
+[20:29:29] [Server thread/INFO]: luispro110224 has made the advancement [Bring Home the Beacon]
+[20:29:29] [Server thread/INFO]: SANS1237843 has reached the goal [Beaconator]
+[20:29:29] [Server thread/INFO]: SANS1237843 has made the advancement [Bring Home the Beacon]
