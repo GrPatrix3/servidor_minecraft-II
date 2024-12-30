@@ -8,10 +8,10 @@ skills:
     xp: 535.0
   auraskills/mining:
     level: 5
-    xp: 1987.42999999988
+    xp: 2091.819999999896
   auraskills/excavation:
     level: 3
-    xp: 893.9599999999986
+    xp: 896.1599999999988
   auraskills/fighting:
     level: 9
     xp: 3877.900000000001
@@ -23,7 +23,7 @@ skills:
     xp: 190.92000000000905
   auraskills/agility:
     level: 7
-    xp: 1788.828400000003
+    xp: 1903.9996000000028
   auraskills/archery:
     level: 2
     xp: 253.89999999999998
@@ -67,4 +67,4 @@ ability_data:
   auraskills/first_strike:
     counter: 117
   auraskills/xp_convert:
-    xp: 23.639067549513122
+    xp: 5.400267549513255

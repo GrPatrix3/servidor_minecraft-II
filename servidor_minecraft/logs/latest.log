@@ -171,3 +171,11 @@
 [17:55:37] [Server thread/INFO]: SANS1237843 has made the advancement [Hidden in the Depths]
 [17:58:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2674ms or 53 ticks behind
 [17:58:28] [Server thread/INFO]: GrPatrixYT has completed the challenge [Subspace Bubble]
+[18:04:48] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[18:04:48] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[18:04:59] [Server thread/WARN]: Player SANS1237843 just tried to change non-editable sign
+[18:05:27] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[18:05:27] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
+[18:05:30] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[18:05:30] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[18:11:54] [Server thread/INFO]: SANS1237843 issued server command: /tpa Alipsi
