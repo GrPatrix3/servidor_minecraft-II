@@ -243,3 +243,9 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [18:39:57] [Server thread/INFO]: luispro110224 issued server command: /tpa SANS1237843
 [18:42:01] [Server thread/INFO]: Alipsi issued server command: /tpa s
 [18:42:23] [Server thread/INFO]: SANS1237843 has reached the goal [Sky's the Limit]
+[18:45:27] [Server thread/INFO]: luispro110224 was doomed to fall
+[18:45:33] [Server thread/INFO]: luispro110224 issued server command: /back
+[18:46:34] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843
+[18:46:34] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to SANS1237843]
+[18:51:11] [Server thread/INFO]: luispro110224 was shot by Skeleton
+[18:51:15] [Server thread/INFO]: luispro110224 issued server command: /back
