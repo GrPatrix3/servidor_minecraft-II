@@ -279,3 +279,15 @@
 [01:43:55] [Async Chat Thread - #18/INFO]: [Not Secure] <xRoma47x> q paso?
 [01:44:02] [Async Chat Thread - #18/INFO]: [Not Secure] <Alipsi> phantoms
 [01:44:05] [Async Chat Thread - #18/INFO]: [Not Secure] <xRoma47x> :v
+[01:48:30] [Server thread/INFO]: luispro110224 burned to death
+[01:48:36] [Server thread/INFO]: luispro110224 issued server command: /back
+[01:48:41] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-68.0,y=17.0,z=-194.0,pitch=0.0,yaw=0.0}
+[01:49:39] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world_nether},x=-68.0,y=17.0,z=-194.0,pitch=0.0,yaw=0.0}
+[01:51:43] [Server thread/INFO]: luispro110224 burned to death
+[01:51:49] [Server thread/INFO]: luispro110224 issued server command: /back
+[01:56:28] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[01:56:28] [Server thread/INFO]: Alipsi left the game
+[01:56:31] [User Authenticator #7/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[01:56:32] [Server thread/INFO]: Alipsi joined the game
+[01:56:32] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[01:56:32] [Server thread/INFO]: Alipsi[/127.49.25.160:36501] logged in with entity id 56759 at ([world]-1084.7676984527225, 81.0, -2121.472478931026)
