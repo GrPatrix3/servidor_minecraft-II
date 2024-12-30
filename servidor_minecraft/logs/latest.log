@@ -788,3 +788,68 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [23:09:36] [Server thread/INFO]: SANS1237843 issued server command: /back
 [23:13:28] [Server thread/INFO]: SANS1237843 issued server command: /back
 [23:16:21] [Server thread/INFO]: GrPatrixYT issued server command: /name hide grpatrixyt
+[23:18:22] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[23:18:22] [Server thread/INFO]: xRoma47x left the game
+[23:19:27] [Server thread/INFO]: GrPatrixYT issued server command: /gamerule playersSleepingPercentage
+[23:21:32] [User Authenticator #12/INFO]: UUID of player INKA2502 is cb04ab5c-8d6f-3216-bc7c-2383fed6d63f
+[23:21:33] [TAB Processing Thread/INFO]: [TAB] [WARN] Player INKA2502's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[23:21:33] [Server thread/INFO]: INKA2502 joined the game
+[23:21:33] [Server thread/INFO]: INKA2502[/127.107.118.182:57053] logged in with entity id 140262 at ([world]-1049.1285059978188, 73.0, -2142.075801110263)
+[23:22:05] [Server thread/INFO]: INKA2502 issued server command: /tpa Alipsi
+[23:22:11] [Server thread/INFO]: GrPatrixYT issued server command: /gamerule playersSleepingPercentage 75
+[23:22:11] [Server thread/INFO]: [GrPatrixYT: Gamerule playersSleepingPercentage is now set to: 75]
+[23:22:15] [Server thread/INFO]: INKA2502 issued server command: /tpa Alipsi
+[23:22:26] [Server thread/INFO]: Alipsi issued server command: /tpahere IN
+[23:22:40] [Server thread/INFO]: INKA2502 issued server command: /tpa Alips
+[23:22:42] [Server thread/INFO]: INKA2502 issued server command: /tpa Alips
+[23:22:57] [Server thread/INFO]: INKA2502 issued server command: /tpaccept
+[23:23:09] [Server thread/INFO]: INKA2502 issued server command: /tpa Alipsi
+[23:23:23] [Server thread/INFO]: INKA2502 issued server command: /tpaccept
+[23:23:30] [Server thread/INFO]: Alipsi issued server command: /tpahere IN
+[23:23:33] [Server thread/INFO]: INKA2502 issued server command: /tpaccept
+[23:23:36] [Server thread/INFO]: SANS1237843 issued server command: /tpahere INKA2502
+[23:23:36] [Server thread/ERROR]: Command exception: /tpahere INKA2502
+org.bukkit.command.CommandException: Unhandled exception executing command 'tpahere' in plugin SimpleTpa v7.4
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2241) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:154) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1577) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:207) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:128) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1554) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1547) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:138) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1498) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1508) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1344) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:340) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.api.ChatColor.Green
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-32.1.2-jre.jar:?]
+	at net.md_5.bungee.api.ChatColor.valueOf(ChatColor.java:289) ~[bungeecord-chat-1.20-R0.2-deprecated+build.18.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.addButtonsMethod(SimpleTpaUtils.java:55) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.utils.SimpleTpaUtils.sendTRequest(SimpleTpaUtils.java:125) ~[SimpleTpa.jar:?]
+	at SimpleTpa.jar/me.mulemuledupe.simpletpa.commands.TpaHereCommand.onCommand(TpaHereCommand.java:70) ~[SimpleTpa.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.3-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[23:23:39] [Server thread/INFO]: INKA2502 issued server command: /tpaccept
+[23:24:37] [Server thread/INFO]: luispro110224 went off with a bang
+[23:27:33] [Server thread/INFO]: luispro110224 issued server command: /back
+[23:27:46] [User Authenticator #13/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[23:27:48] [Server thread/INFO]: xRoma47x joined the game
+[23:27:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[23:27:48] [Server thread/INFO]: xRoma47x[/127.74.153.192:59013] logged in with entity id 143308 at ([world]-1006.1830992001481, 60.0, -1297.8657062088216)
