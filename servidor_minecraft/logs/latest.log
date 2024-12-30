@@ -579,3 +579,15 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [21:48:07] [Server thread/INFO]: xRoma47x issued server command: /back
 [21:48:11] [Server thread/INFO]: [AngelChest] xRoma47x opened the AngelChest of xRoma47x at Location{world=CraftWorld{name=world},x=-1057.0,y=-61.0,z=-2177.0,pitch=0.0,yaw=0.0}
 [21:55:02] [Server thread/WARN]: GrPatrixYT moved wrongly!
+[21:56:56] [Server thread/INFO]: SANS1237843 was doomed to fall by xRoma47x
+[21:57:01] [Server thread/INFO]: SANS1237843 issued server command: /back
+[21:57:06] [Server thread/INFO]: [AngelChest] SANS1237843 opened the AngelChest of SANS1237843 at Location{world=CraftWorld{name=world},x=-1072.0,y=-60.0,z=-2192.0,pitch=0.0,yaw=0.0}
+[21:58:37] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
+[21:58:40] [Server thread/INFO]: SANS1237843 issued server command: /back
+[21:58:58] [Server thread/INFO]: xRoma47x was slain by SANS1237843
+[21:59:02] [Server thread/INFO]: xRoma47x issued server command: /back
+[21:59:06] [Server thread/INFO]: [AngelChest] xRoma47x opened the AngelChest of xRoma47x at Location{world=CraftWorld{name=world},x=-1066.0,y=-29.0,z=-2181.0,pitch=0.0,yaw=0.0}
+[22:01:36] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:02:31] [Server thread/INFO]: GrPatrixYT issued server command: /back
+[22:06:00] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi
+[22:06:00] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to Alipsi]
