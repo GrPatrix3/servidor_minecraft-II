@@ -139,3 +139,7 @@
 [16:51:13] [Server thread/INFO]: Alipsi[/127.49.25.160:55435] logged in with entity id 5720 at ([world]-2113.411317960627, 71.0, -3287.122392854229)
 [16:51:21] [Server thread/INFO]: Alipsi issued server command: /back
 [17:01:58] [Server thread/INFO]: Alipsi has completed the challenge [Return to Sender]
+[17:20:51] [User Authenticator #2/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[17:20:52] [TAB Processing Thread/INFO]: [TAB] [WARN] Player GrPatrixYT's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[17:20:52] [Server thread/INFO]: GrPatrixYT joined the game
+[17:20:52] [Server thread/INFO]: GrPatrixYT[/127.101.92.249:57485] logged in with entity id 14035 at ([world]-823.6740092796664, 66.0, -1746.9518168309378)
