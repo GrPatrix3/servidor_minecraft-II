@@ -571,3 +571,11 @@ Caused by: java.lang.IllegalArgumentException: No enum constant net.md_5.bungee.
 [21:45:10] [TAB Processing Thread/INFO]: [TAB] [WARN] Player xRoma47x's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [21:45:10] [Server thread/INFO]: xRoma47x joined the game
 [21:45:10] [Server thread/INFO]: xRoma47x[/127.74.153.192:60425] logged in with entity id 67815 at ([world]3414.94869607683, 62.11076431274414, 157.1656829274725)
+[21:45:18] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1863fcc3-869c-4540-9f2e-4df5635ab673, mapped to Turtle['Turtle'/68033, uuid='1863fcc3-869c-4540-9f2e-4df5635ab673', l='ServerLevel[world]', x=3334.12, y=53.52, z=315.36, cpos=[208, 19], tl=11648, v=true], can't add Turtle['Turtle'/68117, uuid='1863fcc3-869c-4540-9f2e-4df5635ab673', l='ServerLevel[world]', x=3323.96, y=62.42, z=352.05, cpos=[207, 22], tl=12616, v=false]
+[21:45:18] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: fd30af8e-1eb9-4051-a682-cd911300796b, mapped to Turtle['Turtle'/68088, uuid='fd30af8e-1eb9-4051-a682-cd911300796b', l='ServerLevel[world]', x=3297.08, y=59.97, z=345.90, cpos=[206, 21], tl=12607, v=true], can't add Turtle['Turtle'/68138, uuid='fd30af8e-1eb9-4051-a682-cd911300796b', l='ServerLevel[world]', x=3264.64, y=56.00, z=322.61, cpos=[204, 20], tl=11175, v=false]
+[21:45:27] [Server thread/INFO]: Alipsi issued server command: /skills
+[21:47:24] [Server thread/INFO]: xRoma47x issued server command: /tpa SANS1237843
+[21:47:49] [Server thread/INFO]: xRoma47x fell from a high place
+[21:48:07] [Server thread/INFO]: xRoma47x issued server command: /back
+[21:48:11] [Server thread/INFO]: [AngelChest] xRoma47x opened the AngelChest of xRoma47x at Location{world=CraftWorld{name=world},x=-1057.0,y=-61.0,z=-2177.0,pitch=0.0,yaw=0.0}
+[21:55:02] [Server thread/WARN]: GrPatrixYT moved wrongly!

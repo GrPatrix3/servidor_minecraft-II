@@ -23,7 +23,7 @@ skills:
     xp: 1536.4599999999948
   auraskills/agility:
     level: 7
-    xp: 1250.1610000000028
+    xp: 1283.410600000003
   auraskills/archery:
     level: 0
     xp: 7.0
@@ -55,6 +55,6 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 15.173749535173407
+    xp: 18.423349535173408
   auraskills/first_strike:
     counter: 34

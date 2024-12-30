@@ -23,7 +23,7 @@ skills:
     xp: 190.92000000000905
   auraskills/agility:
     level: 7
-    xp: 2914.3720000000058
+    xp: 2945.4478000000063
   auraskills/archery:
     level: 2
     xp: 253.89999999999998
@@ -37,11 +37,6 @@ mana: 38.0
 action_bar:
   idle: true
 locale: es
-stat_modifiers:
-  '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    value: 1.0
 trait_modifiers:
   '0':
     name: mining_luck_ability
@@ -65,6 +60,6 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 15.142667549513217
+    xp: 16.21846754951322
   auraskills/first_strike:
-    counter: 123
+    counter: 125
