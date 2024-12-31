@@ -177,3 +177,15 @@
 [04:25:09] [Server thread/INFO]: INKA2502 lost connection: Disconnected
 [04:25:09] [Server thread/INFO]: INKA2502 left the game
 [04:25:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Alipsi> guarda cords del end
+[04:35:32] [Server thread/WARN]: luispro110224 moved wrongly!
+[04:35:58] [Async Chat Thread - #7/INFO]: [Not Secure] <Alipsi> estas en el end?
+[04:36:47] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[04:36:47] [Server thread/INFO]: Alipsi left the game
+[04:38:43] [Server thread/INFO]: luispro110224 lost connection: Disconnected
+[04:38:43] [Server thread/INFO]: luispro110224 left the game
+[04:40:30] [User Authenticator #1/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[04:40:31] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Alipsi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[04:40:31] [Server thread/INFO]: Alipsi joined the game
+[04:40:31] [Server thread/INFO]: Alipsi[/127.49.25.160:39813] logged in with entity id 28849 at ([world]-2118.300000011921, 62.0, -3304.5056808062786)
+[04:40:37] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[04:40:37] [Server thread/INFO]: Alipsi left the game
