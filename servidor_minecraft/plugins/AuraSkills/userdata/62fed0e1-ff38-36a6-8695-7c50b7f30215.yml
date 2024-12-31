@@ -8,7 +8,7 @@ skills:
     xp: 2138.6400000001086
   auraskills/mining:
     level: 7
-    xp: 2292.419999999946
+    xp: 2292.6599999999457
   auraskills/excavation:
     level: 3
     xp: 971.0899999999986
@@ -56,6 +56,6 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 14.48318837662101
+    xp: 14.72318837662101
   auraskills/first_strike:
     counter: 5
